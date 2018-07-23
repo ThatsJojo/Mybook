@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="imagemDeFundo" stylesheets="@CadastroRegistro.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PaginaInicialController">
+   <children>
+      <AnchorPane layoutX="482.0" prefHeight="91.0" prefWidth="318.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="exitImage" fitHeight="58.0" fitWidth="65.0" layoutX="239.0" layoutY="14.0" onMouseExited="#mouseExited" onMouseMoved="#mouseMoved" onMousePressed="#sair">
+                <image>
+                    <Image url="@/view/SairDaConta.png">
+                        
+                    </Image>
+                </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="31.0" layoutX="14.0" layoutY="25.0">
+                <image>
+                    <Image fx:id = "SearchImage" url="@/view/SearchImage.png">
+                    </Image>
+                </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="91.0" prefWidth="311.0" style="-fx-background-color: white;">
+         <children>
+            <TextField layoutX="154.0" layoutY="21.0" prefHeight="43.0" prefWidth="328.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="14.0" layoutY="21.0" text="Search" textFill="#170101">
+               <font>
+                  <Font name="Be True To Your School Regular" size="42.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
